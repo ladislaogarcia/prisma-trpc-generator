@@ -49,6 +49,5 @@
   "bugs": {
     "url": "https://github.com/omar-dulaimi/prisma-trpc-generator/issues"
   },
-  "homepage": "https://github.com/omar-dulaimi/prisma-trpc-generator#readme",
-  "private": true
+  "homepage": "https://github.com/omar-dulaimi/prisma-trpc-generator#readme"
 }
