@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import pluralize from 'pluralize';
 import { generate as PrismaTrpcShieldGenerator } from 'prisma-trpc-shield-generator/lib/prisma-generator';
-import { generate as PrismaZodGenerator } from 'prisma-zod-generator/lib/prisma-generator';
+import { generate as PrismaZodGenerator } from '@ladislaogarcia/prisma-zod-generator/lib/prisma-generator';
 import { configSchema } from './config';
 import {
   generateBaseRouter,
