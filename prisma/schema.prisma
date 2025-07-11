@@ -4,6 +4,7 @@ generator client {
 
 generator trpc {
   provider          = "node ./lib/generator.js"
+  withZod           = true
   isGenerateSelect  = true
   isGenerateInclude = true
   withMiddleware    = "./middleware"

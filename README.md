@@ -70,13 +70,7 @@ Automatically generate fully implemented tRPC routers from your [Prisma](https:/
 Using npm:
 
 ```bash
- npm install prisma-trpc-generator
-```
-
-Using yarn:
-
-```bash
- yarn add prisma-trpc-generator
+ npm install @ladislaogarcia/prisma-trpc-generator
 ```
 
 # Usage
