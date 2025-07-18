@@ -1,8 +1,8 @@
 {
   "name": "@ladislaogarcia/prisma-trpc-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prisma 2+ generator to emit fully implemented tRPC routers",
-  "repository": "https://github.com/omar-dulaimi/prisma-trpc-generator",
+  "repository": "https://github.com/ladislaogarcia/prisma-trpc-generator",
   "bin": {
     "prisma-trpc-generator": "lib/generator.js"
   },
@@ -13,8 +13,8 @@
     "package:publish": "./package.sh && cd package && npm publish"
   },
   "author": {
-    "name": "Omar Dulaimi",
-    "url": "https://github.com/omar-dulaimi"
+    "name": "Ladislao García",
+    "url": "https://github.com/ladislaogarcia"
   },
   "keywords": [
     "prisma",
@@ -47,7 +47,7 @@
     "zod": "^3.20.2"
   },
   "bugs": {
-    "url": "https://github.com/omar-dulaimi/prisma-trpc-generator/issues"
+    "url": "https://github.com/ladislaogarcia/prisma-trpc-generator/issues"
   },
-  "homepage": "https://github.com/omar-dulaimi/prisma-trpc-generator#readme"
+  "homepage": "https://github.com/ladislaogarcia/prisma-trpc-generator#readme"
 }

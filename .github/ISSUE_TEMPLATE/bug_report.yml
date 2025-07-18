@@ -2,10 +2,6 @@ name: Bug report
 description: Create a bug report to help us improve Prisma tRPC Generator
 labels: 'kind/bug'
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please consider supporting me for faster fixes, responses and features [Sponsor Me](https://github.com/sponsors/omar-dulaimi)
   - type: textarea
     attributes:
       label: Bug description

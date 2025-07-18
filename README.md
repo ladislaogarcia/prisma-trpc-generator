@@ -1,4 +1,4 @@
-# Prisma tRPC
+# Prisma tRPC Generator
 
 > This generator is a fork from ["prisma-trpc-generator"](https://github.com/omar-dulaimi/prisma-trpc-generator) but with the added value of working in Prisma ORM versions 5 and 6. The related forked generator only works fine until Prisma ORM version 4.
 
@@ -7,19 +7,19 @@ Thanks to [Omar Dulaimi](https://github.com/omar-dulaimi/) for sharing.
 [![npm](https://img.shields.io/npm/l/prisma-trpc-generator.svg)](LICENSE)
 
 <p align="center">
-  <a href="https://github.com/omar-dulaimi/prisma-trpc-generator">
-    <img src="https://raw.githubusercontent.com/omar-dulaimi/prisma-trpc-generator/master/logo.png" alt="Logo" width="200" height="200"/>
+  <a href="https://github.com/ladislaogarcia/prisma-trpc-generator">
+    <img src="https://raw.githubusercontent.com/ladislaogarcia/prisma-trpc-generator/master/logo.png" alt="Logo" width="200" height="200"/>
   </a>
   <h3 align="center">Prisma tRPC Generator</h3>
   <p align="center">
     A Prisma generator that automates creating your tRPC routers from your Prisma schema.
     <br />
-    <a href="https://github.com/omar-dulaimi/prisma-trpc-generator#additional-options"><strong>Explore the options »</strong></a>
+    <a href="https://github.com/ladislaogarcia/prisma-trpc-generator#additional-options"><strong>Explore the options »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/omar-dulaimi/prisma-trpc-generator/issues/new?template=bug_report.yml">Report Bug</a>
+    <a href="https://github.com/ladislaogarcia/prisma-trpc-generator/issues/new?template=bug_report.yml">Report Bug</a>
     ·
-    <a href="https://github.com/omar-dulaimi/prisma-trpc-generator/issues/new?template=feature_request.md">Request Feature</a>
+    <a href="https://github.com/ladislaogarcia/prisma-trpc-generator/issues/new?template=feature_request.md">Request Feature</a>
   </p>
 </p>
 
@@ -123,7 +123,7 @@ model Post {
 
 will generate
 
-![tRPC Routers](https://raw.githubusercontent.com/omar-dulaimi/prisma-trpc-generator/master/trpcRouters.png)
+![tRPC Routers](https://raw.githubusercontent.com/ladislaogarcia/prisma-trpc-generator/master/trpcRouters.png)
 
 5- Make sure you have a valid `Context` file, as specified in `contextPath` option. The official [Context](https://trpc.io/docs/context) for reference.
 
